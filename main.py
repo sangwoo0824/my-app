@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import koreanize_matplotlib
 
 # 파일 업로드
-st.title("중학생 연령대 인구 비율")
+st.title("학생 연령대 인구 비율")
 uploaded_file = st.file_uploader("CSV 파일을 업로드하세요:", type="csv")
 
 if uploaded_file is not None:
